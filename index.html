@@ -22,14 +22,20 @@
         line-height : 80px;
         text-align : center;}
 
-		html {font-family: 'Noto Serif KR', serif;}
+		html {font-family: 'Noto Serif KR', serif; }
 		h1 {text-align: left; font-size: 45pt; margin-top: 500px; margin-left: 500px; font-family: 'Alice in Wonderland';}
-		h2 {font-size: 100pt; margin: 0px; margin-top: 10px; font-family : 궁서, '맑은 고딕', 나눔고딕;}
-		h3 {font-size: 100pt; margin: 0px; margin-top: 10px; font-family: 'Noto Serif KR', serif;}
-		p {font-size: 18pt; margin: 0px; margin-top: 10px; left: 100px; font-family: 'Noto Serif KR', serif;}
 
-		.wrap {width: 900px; margin:auto; overflow: hidden; background-size: cover; height: 15500px; position: relative;}
-		section p {text-align: center; top: ; left: 300px;}
+		.wrap {width: 900px; margin: auto; position: relative;}
+		#back0 {overflow: hidden; background-size: cover; height: 15500px;}
+		.foot {width: 900px; margin:auto;}
+		#back1 {height: 50px;}
+		section p {font-size: 18pt; text-align: center; margin: 0px; margin-top: 10px;  left: 300px;}
+
+		/*footer*/
+		footer p {font-size: 18pt; font-weight: bold; letter-spacing: 2px; word-spacing: 10px;}
+		footer #p1{margin-left: 0px; word-spacing: 100px;}
+
+
 		.intro {text-align: left; font-size: 20pt; margin-top: 630px; margin-left: 150px; line-height: 40px;}
 		.al {text-align: left; font-size: 15pt; margin-top: -20px; margin-left: 450px; line-height: 30px;}
 		.jang1 {text-align: left; font-size: 20pt; margin-top: 700px; margin-left: 150px; line-height: 50px;}
@@ -40,50 +46,50 @@
 		.jang6 {text-align: left; font-size: 20pt; margin-top: 1300px; margin-left: 150px; line-height: 50px;}
 
 		.one {width: 650px; display: block; position: absolute; top: 140px; left: 100px;}
-		.alice {width: 380px; display: block; position: absolute; top: 900px; left: 50px;}
-		.iu {width: 550px; display: block; position: absolute; top: 900px; left: 300px;}
-		.tree {width: 350px; display: block; position: absolute; top: 1600px; left: 570px;}
-		.cat {width: 190px; display: block; position: absolute; top: 1750px; left: 550px;}
+		.alice {width: 380px; display: block; position: absolute; top: 900px; left: 50px; transition: all 1s; animation: LLL 1.5s infinite linear alternate;}
+		.iu {width: 550px; display: block; position: absolute; top: 900px; left: 300px; transition: all 1s; animation: MMM 1.5s infinite linear alternate;}
+		.tree {width: 350px; display: block; position: absolute; top: 1600px; left: 570px; transition: all 2s; animation: BBB 0.2s infinite linear alternate;}
+		.cat {width: 190px; display: block; position: absolute; top: 1750px; left: 550px; transition: all 2s; animation: CCC 0.2s infinite linear alternate;}
 
-		.back {width: 1000px; display: block; position: absolute; top: 2550px; left: -30px;}
+		.back {width: 1000px; display: block; position: absolute; top: 2550px; left: -30px; transition: all 1s; animation: NNN 1s infinite linear alternate;}
 		.fish {width: 950px; display: block; position: absolute; top: 2700px; left: -30px;}
 		.fall {width: 550px; display: block; position: absolute; top: 2650px; left: 0px;}
-		.iu1 {width: 380px; display: block; position: absolute; top: 3700px; left: 500px;}
+		.iu1 {width: 380px; display: block; position: absolute; top: 3700px; left: 500px;  transition: all 1s; animation: NNNN 1s infinite linear alternate;}
 
-		.back1 {width: 1700px; display: block; position: absolute; top: 4750px; left: -800px;}
-		.fan {width: 650px; display: block; position: absolute; top: 4550px; left: 270px;}
+		.back1 {width: 1700px; display: block; position: absolute; top: 4750px; left: -800px; }
+		.fan {width: 650px; display: block; position: absolute; top: 4550px; left: 270px; transition: all 1s; animation: PPP 0.5s infinite linear alternate; z-index: 999;}
 		.cry {width: 550px; display: block; position: absolute; top: 4750px; left: 0px;}
-		.float {width: 200px; display: block; position: absolute; top: 5350px; left: 200px;}
+		.float {width: 200px; display: block; position: absolute; top: 5350px; left: 200px; transition: all 3s; animation: QQQ 3s infinite linear alternate;}
 
 		.back2 {width: 1000px; display: block; position: absolute; top: 6500px; left: 100px;}
-		.lookback {width: 330px; display: block; position: absolute; top: 6570px; left: -150px;}
-		.iu2 {width: 340px; display: block; position: absolute; top: 6820px; left: 150px;}
-		.flower {width: 1530px; display: block; position: absolute; top: 6550px; left: -50px;}
+		.lookback {width: 330px; display: block; position: absolute; top: 6570px; left: -150px; transition: all 3s; animation: RRR 1s infinite linear alternate;}
+		.iu2 {width: 340px; display: block; position: absolute; top: 6820px; left: 150px; }
+		.flower {width: 1530px; display: block; position: absolute; top: 6550px; left: -50px; transition: all 1s; animation: GGG 0.2s infinite linear alternate;}
 		.wow {width: 220px; display: block; position: absolute; top: 7200px; left: 20px;}
 
 		.back3 {width: 870px; display: block; position: absolute; top: 8350px; left: -100px;}
 		.cricket {width: 320px; display: block; position: absolute; top: 8370px; left: 20px;}
-		.cricket2 {width: 320px; display: block; position: absolute; top: 8800px; left: 20px;}
+		.cricket2 {width: 320px; display: block; position: absolute; top: 8800px; left: 20px; transition: all 1s; animation: AAA 2s infinite linear ;}
 		.queen {width: 580px; display: block; position: absolute; top: 8500px; left: 450px;}
-		.musa {width: 450px; display: block; position: absolute; top: 9300px; left: 30px;}
-		.lookback2 {width: 470px; display: block; position: absolute; top: 9450px; left: 550px;}
+		.musa {width: 450px; display: block; position: absolute; top: 9300px; left: -300px; transition: all 1s; animation: SSS 4s infinite linear;}
+		.lookback2 {width: 470px; display: block; position: absolute; top: 9450px; left: 300px; transition: all 30s; animation: SSS 4s infinite linear alternate;}
 
 		.back4 {width:850px; display: block; position: absolute; top: 10580px; left: -20px;}
-		.greet {width: 280px; display: block; position: absolute; top: 10900px; left: 80px;}
-		.cat2 {width: 200px; display: block; position: absolute; top: 10900px; left: 400px;}
-		.queen2 {width: 500px; display: block; position: absolute; top: 10880px; left: 380px;}
-		.soogun {width: 500px; display: block; position: absolute; top: 11320px; left: -50px;}
+		.greet {width: 280px; display: block; position: absolute; top: 10900px; left: 80px; transition: all 1s; animation: GGG 1s infinite linear alternate;}
+		.cat2 {width: 200px; display: block; position: absolute; top: 10900px; left: 400px; transition: all 1s; animation: SSSSS 3s infinite linear alternate;}
+		.queen2 {width: 500px; display: block; position: absolute; top: 10880px; left: 380px; transition: all 1s; animation: TTT 3s infinite linear alternate;}
+		.soogun {width: 500px; display: block; position: absolute; top: 11320px; left: -50px; transition: all 1s; animation: TTTT 3s infinite linear alternate;}
 
 		.back5 {width: 900px; display: block; position: absolute; top: 12450px; left: 0px;}
-		.angry {width: 630px; display: block; position: absolute; top: 12315px; left: -120px;}
-		.musa2 {width: 290px; display: block; position: absolute; top: 12200px; left: 540px;}
-		.musa3 {width: 370px; display: block; position: absolute; top: 12400px; left: 550px;}
-		.musa4 {width: 300px; display: block; position: absolute; top: 12850px; left: 350px;}
+		.angry {width: 630px; display: block; position: absolute; top: 12315px; left: -120px; transition: all 1s; animation: RRR 3s infinite linear alternate; z-index: 999;}
+		.musa2 {width: 290px; display: block; position: absolute; top: 12200px; left: 540px; transition: all 1s; animation: UUU 3s infinite linear alternate;}
+		.musa3 {width: 370px; display: block; position: absolute; top: 12400px; left: 550px; transition: all 1s; animation: UUU 3s infinite linear alternate;}
+		.musa4 {width: 300px; display: block; position: absolute; top: 12850px; left: 350px; transition: all 1s; animation: UUU 3s infinite linear alternate;}
 
-		.cat4 {width: 900px; display: block; position: absolute; top: 13150px; left: 0px;}
+		.cat4 {width: 900px; display: block; position: absolute; top: 13150px; left: 0px; transition: all 1s; animation: DDD 3s infinite linear alternate;}
 		.back6 {width: 900px; display: block; position: absolute; top: 14700px; left: -120px;}
 		.sleep {width: 580px; display: block; position: absolute; top: 14920px; left: 300px;}
-		.cat22 {width: 200px; display: block; position: absolute; top: 15070px; left: 500px;}
+		.cat22 {width: 200px; display: block; position: absolute; top: 15070px; left: 500px; transition: all 1s; animation: DDD 1s infinite linear alternate;}
 
 		.ch1 {width: 40px; display: block; position: absolute; top: 1980px; left: 0px;}
 		.ch2 {width: 40px; display: block; position: absolute; top: 4070px; left: 0px;}
@@ -92,45 +98,74 @@
 		.ch5 {width: 40px; display: block; position: absolute; top: 9940px; left: 0px;}
 		.ch6 {width: 40px; display: block; position: absolute; top: 11760px; left: 0px;}
 
-		@keyframes ko{ 
+		@keyframes AAA{ 
 			to{ transform: rotate(360deg); } }
-		@keyframes bo{ 
-			to{ top: 340px; } }
-		@keyframes no{ 
-			from{opacity: 1}
+		@keyframes BBB{ 
+			from { top: 1550px; }
+			to{ top: 1600px; } }
+		@keyframes CCC{ 
+			from { top: 1700px; }
+			to{ top: 1750px; } }
+		@keyframes DDD{ 
 			to{opacity: 0}}
-		@keyframes ho{ 
-			to{opacity: 0.5}}
-		@keyframes fo{ 
+		@keyframes FFF{ 
 			to{ transform: rotate(360deg);} }
-		@keyframes lo{ 
-			from { transform: rotate(-10deg); }
-			to{ transform: rotate(10deg);} }
-		@keyframes rro{ 
-			from { transform: rotate(-40deg); }
-			to{ transform: rotate(20deg);} }
-		@keyframes lio{ 
+		@keyframes GGG{ 
+			from { transform: rotate(-5deg); }
+			to{ transform: rotate(5deg);} }
+		@keyframes HHH{ 
+			from { transform: rotate(-20deg); width: 1000px; }
+			to{ transform: rotate(20deg); width: 1200px;}}
+		@keyframes III{ 
 			to{ transform: rotate(360deg); width: 50px; left: 200px; } }
-		@keyframes ffo{ 
+		@keyframes KKK{ 
 			to{ width: 800px;} }
-		@keyframes fffo{ 
-			to{ transform: rotate(60deg); width: 10px; left: -500px;} }
-		@keyframes nno{ 
-			to{ left: -230px; }}
-		@keyframes ro{ 
+		@keyframes LLL{ 
+			from { left: -500px; }
+			to{ transform: rotate(0deg); left: 50px;} }
+		@keyframes MMM{ 
+			from { left: 1000px; }
+			to{ transform: rotate(0deg); left: 300px;} }
+		@keyframes NNN{ 
+			from {left: 1000px;}
+			to{ left: -1000px; }}
+		@keyframes NNNN{ 
+			from {left: 1500px;}
+			to{ left: -400px; }}
+		@keyframes OOO{ 
 			to{ transform: rotate3d(1,1,1,360deg);} }
+		@keyframes PPP{ 
+			from {transform: rotate(-40deg);}
+			to{ transform: rotate(40deg); } }
+		@keyframes QQQ{
+			to { top: 5500px; left: 1000px;}}
+		@keyframes RRR{
+			to { left: -400px;}}
+		@keyframes SSS{
+			to { left: 750px;}}
+		@keyframes SSSS{
+			to { left: 900px;}}
+		@keyframes SSSSS{
+			to { left: 500px;}}
+		@keyframes TTT{
+			to { top: 10800px; }}
+		@keyframes TTTT{
+			to { top: 11400px; }}
+		@keyframes UUU{
+			to {left: 200px;}
+		}
+
+
 			@font-face {
     font-family: 'Alice in Wonderland';
     font-style: normal;
     font-weight: normal;
     src: local('Alice in Wonderland'), url('Alice_in_Wonderland_3.woff') format('woff');}
 
-    	footer {text-align: center; font-size: 20pt;}
-    	footer p {text-align: center; font-size: 20pt; margin: 0px; margin-top: 10px; font-family: 'Noto Serif KR', serif;}
 		</style>
 </head>
 <body>
-	<div class="wrap">
+	<div class="wrap" id="back0">
 		<section>	
 			<img src="1.png" class="one">
 			<p class="intro"> 신비한 고양이를 따라 굴 속으로 뛰어든 앨리스가
@@ -173,7 +208,7 @@
 			<br> 작아져서 자신이 흘린 눈물 웅덩이에 빠진다. </p>
 			<img src="back1.png" class="back1">
 			<img src="fan.png" class="fan">
-			<img src="cry.png" class="cry">
+			<img src="crycry.gif" class="cry">
 			<img src="float.png" class="float">
 		</section>
 		<section>
@@ -238,9 +273,11 @@
 			<img src="cat2.png" class="cat22">
 		</section>
 	</div>
+
 	<footer>
-        <p>copyright&copy;2019 한경대학교 디자인학과 정연주. 모든 권리 보유.</p>
+		<div class="foot" id="back1">
+				<p id="p1">Alice-In-Ukiyo-e 정연주 j1212yj@gmail.com</p>
+		</div>
     </footer>
-	<embed src="japan.mp3" autostart="true" loop="true" showcontrols="0" height="0" width="0">
 </body>
 </html>
